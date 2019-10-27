@@ -72,7 +72,7 @@ var Engine = (function(global) {
         updateEntities();
         // collision = false after timeout
         if (!collision)
-            global.stop = collision = checkCollisions();
+            global.stopper = collision = checkCollisions();
     }
 
     // detect collision
@@ -147,7 +147,7 @@ var Engine = (function(global) {
             ctx.fillText('wasted', 150, 520);
             reset();
             setTimeout(() => {
-                global.stop = collision = false;
+                global.stopper = collision = false;
             }, 3000);
         }
     }

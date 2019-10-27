@@ -60,7 +60,7 @@ class Player {
     }
     handleInput(key) {
         // stop moving on lose
-        if (stop)
+        if (stopper)
             return;
         switch (key) {
             case 'left':
