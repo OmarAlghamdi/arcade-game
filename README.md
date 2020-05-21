@@ -1,18 +1,17 @@
-# Classic Arcade Game Clone Project
+# Classic Arcade Game
+Created for Udacity Front-End Nanodegree
 
 ## Table of Contents
 
 - [Instructions](#instructions)
-- [Contributing](#contributing)
 
 ## Instructions
+- Download the repo.
 
-Download the repo.
+- Open index.html in your browser
 
-open index.html in your browser
+- Use arrow keys to move
 
-you arrow keys to move
+- Try to reach the water while avoiding the bugs
 
-try to reach the water while avoiding the bugs
-
-
+- Have fun 😃
